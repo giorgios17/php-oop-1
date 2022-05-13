@@ -8,7 +8,7 @@
 
      public function render() {
         return 
-        "<div class='m-btm-30 bg-lightblue'>
+        "<div class='film-card'>
             <h3>Nome film:</h3>
             <span>".$this->name."</span>
             <h3>Genere:</h3>
