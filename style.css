@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 80%;
 }
 
 body h1 {
@@ -13,9 +15,15 @@ body h1 {
 }
 
 .film-card {
-    background-color: lightblue;
+    background-color: lightgreen;
     margin-bottom: 30px;
     width: 300px;
     border-radius: 20px;
     padding: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.film-card:hover {
+    transform: scale(1.2);
 }
