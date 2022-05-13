@@ -17,7 +17,7 @@
     <h1>LISTA FILM:</h1>
     <?php
     
-    include "movie.php";
+    include "entities/movie.php";
 
     $avengers = new Movie('Avengers: Endgame');
     $avengers->genre = 'Azione/Sci-fi';
